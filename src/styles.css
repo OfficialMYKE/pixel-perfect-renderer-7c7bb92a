@@ -3538,3 +3538,15 @@ body {
   border-radius: 0 !important;
 }
 .auth__btn { border-width: 1px; }
+
+/* Shop filters: size + price */
+.shop-filters { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 20px 36px; padding: 20px 0; border-bottom: 1px solid var(--vintage-line); }
+.shop-filters__group { display: flex; flex-direction: column; gap: 10px; }
+.shop-filters__label { font: 600 10px/1 var(--font-ui); letter-spacing: 0.2em; text-transform: uppercase; color: var(--vintage-fog); }
+.shop-filters__chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip--size { min-width: 40px; justify-content: center; }
+.shop-filters__price { display: flex; align-items: center; gap: 10px; color: var(--vintage-fog); }
+.shop-filters__price input { width: 92px; height: 36px; padding: 0 10px; background: transparent; border: 1px solid var(--vintage-line); border-radius: 0; color: var(--vintage-paper); font: 500 13px/1 var(--font-ui); outline: 0; }
+.shop-filters__price input:focus { border-color: var(--vintage-paper); }
+.shop-filters__clear { background: none; border: 0; padding: 0 0 10px; cursor: pointer; color: var(--vintage-fog); font: 600 10px/1 var(--font-ui); letter-spacing: 0.2em; text-transform: uppercase; text-decoration: underline; text-underline-offset: 4px; }
+.shop-filters__clear:hover { color: var(--vintage-red); }
