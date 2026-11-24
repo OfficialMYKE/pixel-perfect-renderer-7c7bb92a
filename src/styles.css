@@ -3524,7 +3524,7 @@ body {
 :root { --font-ui: "Instrument Sans", "Helvetica Neue", Arial, sans-serif; }
 @utility btn-editorial {
   font-family: var(--font-ui);
-  font-weight: 500;
+  font-weight: 600;
   font-size: 11px;
   line-height: 1;
   letter-spacing: 0.2em;
@@ -3532,7 +3532,7 @@ body {
 }
 .btn, .vn__auth-btn, .auth__btn, .footer__newsletter-btn, .announcement-bar__btn {
   font-family: var(--font-ui) !important;
-  font-weight: 500 !important;
+  font-weight: 600 !important;
   font-size: 11px !important;
   letter-spacing: 0.2em !important;
   border-radius: 0 !important;
